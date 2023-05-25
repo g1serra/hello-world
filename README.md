@@ -21,7 +21,7 @@ val df = spark.read
 // Process and display the loaded data
 df.show()
 ```
-#PySpark
+# PySpark
 ```python
 from pyspark.sql import SparkSession
 
