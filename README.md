@@ -1,46 +1,84 @@
-# hello-world
-```python
-import org.apache.spark.sql.SparkSession
+# Main
 
-// Create a SparkSession
-val spark = SparkSession.builder()
-  .appName("Z-compressed File Loading")
-  .getOrCreate()
-
-// Set the path to the Z-compressed file
-val filePath = "/path/to/compressed_file.z"
-
-// Read the compressed file using Spark
-val df = spark.read
-  .format("csv") // Assuming the compressed file is in CSV format
-  .option("header", "true") // Specify if the file has a header
-  .option("inferSchema", "true") // Infer column types automatically
-  .option("compression", "org.apache.hadoop.io.compress.DefaultCodec") // Specify the compression codec
-  .load(filePath)
-
-// Process and display the loaded data
-df.show()
 ```
-# PySpark
+git clone https://github.com/g1serra/flask4dev1.git
+```
+
+```
+py -m venv venv
+```
+
+```
+venv\scripts\activate
+```
+
+```
+python.exe -m pip install --upgrade pip
+```
+
+```
+pip install flask
+```
+
+```
+pip freeze > requirements.txt
+```
+
+```
+pip install -r requirements.txt
+```
+
+```
+echo >> .env
+```
+
+```
+echo >> .gitignore
+```
+
+```
+*.env
+venv/
+```
+
+# Git
+
+```
+git init
+```
+
+```
+git branch -M main
+```
+
+```
+git status
+```
+
+```
+git add .
+```
+
+```
+git commit -m "$(Get-Date -Format 'yyyy-MM-dd HH:mm:ss')"
+```
+
+```
+git push -u origin main
+```
+# Python
 ```python
-from pyspark.sql import SparkSession
+pip install python-dotenv -q
+```
+```python
+from dotenv import load_dotenv
+import os
 
-# Create a SparkSession
-spark = SparkSession.builder \
-    .appName("Z-compressed File Loading") \
-    .getOrCreate()
+load_dotenv()
 
-# Set the path to the Z-compressed file
-file_path = "/path/to/compressed_file.z"
+api_key = os.getenv("API_KEY")
+api_secret = os.getenv("API_SECRET")
 
-# Read the compressed file using Spark
-df = spark.read \
-    .format("csv")  # Assuming the compressed file is in CSV format
-    .option("header", "true")  # Specify if the file has a header
-    .option("inferSchema", "true")  # Infer column types automatically
-    .option("compression", "org.apache.hadoop.io.compress.DefaultCodec")  # Specify the compression codec
-    .load(file_path)
-
-# Process and display the loaded data
-df.show()
+print("API_KEY: ", api_key)
+print("API_SECRET: ", api_secret)
 ```
