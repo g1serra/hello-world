@@ -13,20 +13,20 @@
 > hint: 'git pull ...') before pushing again.
 > <br>
 > hint: See the 'Note about fast-forwards' in 'git push --help' for details.
-<br>
+  
 It appears that you have conflicts in your local branch that need to be resolved before pull, stash apply, or push.
-<br>
+  
 To resolve the conflicts, you can follow these steps:
-<br>
-<br>
+  
 ```
 git commit -m "$(Get-Date -Format 'yyyy-MM-dd HH:mm:ss')"
 ```
-
+  
 ```
 git pull origin main
 ```
-
+  
 ```
 git push -u origin main
 ```
+  
