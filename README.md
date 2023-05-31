@@ -1,8 +1,6 @@
 # Main
 
-```
-git clone https://github.com/g1serra/flask4dev1.git
-```
+
 
 ```
 py -m venv venv
@@ -42,7 +40,9 @@ venv/
 ```
 
 # Git
-
+```
+git clone https://github.com/g1serra/flask4dev1.git
+```
 ```
 git init
 ```
