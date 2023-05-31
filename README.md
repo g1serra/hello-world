@@ -1,6 +1,5 @@
-# Main
-
-
+# Python
+## Quick set-up
 
 ```
 py -m venv venv

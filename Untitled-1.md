@@ -15,7 +15,7 @@ origin    https://github.com/g1serra/repo1.git (push)
 ```
 hange the remote URL to your own repository:
 ```bash
-git remote set-url origin https://github.com/your-username/new-repo2.git
+git remote set-url origin https://github.com/your-username/repo2.git
 ```
 Replace `your-username` with your GitHub username, and `repo2` with the name of your own repository.
 Verify the new remote URL:
@@ -23,10 +23,6 @@ Verify the new remote URL:
 git remote -v
 ```
 The output should now show your own repository's URL as the remote URL.
-```
-origin    https://github.com/g1serra/new-repo2.git (fetch)
-origin    https://github.com/g1serra/new-repo2.git (push)
-```
 ```
 git branch -M main
 ```
@@ -45,4 +41,4 @@ git push origin main
 ```
 This command pushes the commits from the local `master` branch to the remote repository.
 
-Now, your commits will be pushed to your own repository (`https://github.com/your-username/new-repo2.git`) instead of the original repository (`https://github.com/g1serra/repo1.git`).
+Now, your commits will be pushed to your own repository (`https://github.com/your-username/repo2.git`) instead of the original repository (`https://github.com/g1serra/repo1.git`).
