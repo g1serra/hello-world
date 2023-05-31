@@ -1,10 +1,17 @@
 > $ git push origin main
+> <br>
 > To https://github.com/g1serra/hello-world.git
->  ! [rejected]        main -> main (non-fast-forward)
+> <br>
+>  ! [rejected] main -> main (non-fast-forward)
+>  <br>
 > error: failed to push some refs to 'https://github.com/g1serra/hello-world.git'
+> <br>
 > hint: Updates were rejected because the tip of your current branch is behind
-> hint: its remote counterpart. Integrate the remote changes (e.g.
+> <br>
+> hint: its remote counterpart. Integrate the remote changes
+> <br>
 > hint: 'git pull ...') before pushing again.
+> <br>
 > hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 <br>
 It appears that you have conflicts in your local branch that need to be resolved before pull, stash apply, or push.
