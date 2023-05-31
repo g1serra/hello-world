@@ -16,7 +16,7 @@
 <br>
 It appears that you have conflicts in your local branch that need to be resolved before pull, stash apply, or push.
 <br>
-**To resolve the conflicts, you can follow these steps:**
+To resolve the conflicts, you can follow these steps:
 <br>
 <br>
 ```
