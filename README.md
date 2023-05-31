@@ -62,7 +62,11 @@ git add .
 ```
 git commit -m "$(Get-Date -Format 'yyyy-MM-dd HH:mm:ss')"
 ```
+Here's the Bash version of the Git commit command with the current date and time as the commit message:
+```
+git commit -m "$(date +'%Y-%m-%d %H:%M:%S')"
 
+```
 ```
 git push -u origin main
 ```
