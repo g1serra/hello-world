@@ -18,12 +18,15 @@ It appears that you have conflicts in your local branch that need to be resolved
 <br>
 To resolve the conflicts, you can follow these steps:
 <br>
+
 ```
 git commit -m "$(Get-Date -Format 'yyyy-MM-dd HH:mm:ss')"
 ```
+
 ```
 git pull origin main
 ```
+
 ```
 git push -u origin main
 ```
