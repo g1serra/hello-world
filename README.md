@@ -53,7 +53,7 @@ git branch -M main
 ```
 git status
 ```
-The following commit -am is doing an "ad all" + "commit" command  
+The following commit -am is doing an "adding" + "commit" in one shot command  
 ```
 git commit -am "$(Get-Date -Format 'yyyy-MM-dd HH:mm:ss')"
 ```
