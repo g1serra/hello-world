@@ -1,43 +1,36 @@
 # Python
 ## Quick set-up
-
 ```
 py -m venv venv
 ```
-
 ```
 venv\scripts\activate
 ```
-
 ```
 python.exe -m pip install --upgrade pip
 ```
-
+```
+pip install -U pip setuptools wheel
+```
 ```
 pip install flask
 ```
-
 ```
 pip freeze > requirements.txt
 ```
-
 ```
 pip install -r requirements.txt
 ```
-
 ```
 echo >> .env
 ```
-
 ```
 echo >> .gitignore
 ```
-
 ```
 *.env
 venv/
 ```
-
 # Git
 ```
 git clone https://github.com/g1serra/flask4dev1.git
@@ -45,11 +38,9 @@ git clone https://github.com/g1serra/flask4dev1.git
 ```
 git init
 ```
-
 ```
 git branch -M main
 ```
-
 ```
 git status
 ```
