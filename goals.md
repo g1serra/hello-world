@@ -19,3 +19,12 @@ Building trust and fostering success among colleagues is essential for a product
 
 By consistently practicing these principles, you can improve trustworthiness and create an environment where your colleagues feel supported and empowered to achieve success.
 ```
+```
+To improve every day, challenge your perspective and embrace every opportunity for growth. 
+Adopt a mindset of continuous learning and development. 
+Seek feedback, identify areas for improvement, and take proactive steps to enhance your skills. 
+Embrace new challenges and view setbacks as learning experiences. 
+Stay open-minded, explore different perspectives, and be willing to adapt your approach. 
+Cultivate a growth mindset that fuels your motivation to constantly evolve and surpass your previous best. 
+By embracing improvement opportunities and challenging your perspective, you can make significant strides in your personal and professional development.
+```
