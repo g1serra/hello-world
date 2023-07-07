@@ -28,3 +28,12 @@ Stay open-minded, explore different perspectives, and be willing to adapt your a
 Cultivate a growth mindset that fuels your motivation to constantly evolve and surpass your previous best. 
 By embracing improvement opportunities and challenging your perspective, you can make significant strides in your personal and professional development.
 ```
+```
+To improve a proactive and risk culture, encourage open communication and proactive problem-solving. 
+Create an environment where team members feel empowered to identify and address potential risks and challenges.
+Foster a culture that values innovation, rewards initiative, and supports calculated risk-taking. 
+Provide resources and training to enhance risk assessment and management skills. 
+Encourage collaboration and cross-functional involvement to ensure a comprehensive understanding of potential risks. 
+Celebrate successful risk-taking and share lessons learned from failures. 
+Continuously reinforce the importance of proactive measures and emphasize the benefits of taking calculated risks to drive growth and success.
+```
